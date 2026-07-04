@@ -1,0 +1,1 @@
+print("parth:\\drive C\user\lenovo\python\\28521_Arman_sir")
