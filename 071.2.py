@@ -7,3 +7,4 @@ while temp >0:
     temp=temp//10
 
 print("sum of digit is:", sum_digit)
+ 
