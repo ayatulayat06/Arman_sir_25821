@@ -1,3 +1,4 @@
+# Finding average of two numbers
 num1= float(input("Enter a number: "))
 num2= float(input("Enter another number: "))
 avarege = (num1 + num2) / 2
