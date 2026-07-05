@@ -1,3 +1,4 @@
+# Counting digits in a number using while loop
 num = int(input("Enter a positive integer: "))
 count = 0
 temp = abs(num)  
@@ -7,4 +8,4 @@ else:
     while temp > 0:
         temp = temp // 10
         count += 1
-print("Total number of digits:", count)#cvbb
+print("Total number of digits:", count)
