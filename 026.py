@@ -1,4 +1,8 @@
-sum = 0
-for a in range(1, 11,1):
-    sum =sum+a
-print("The sum of the first 10 natural numbers is:", sum)
+# demonstrating Membership Operators
+
+items= ["apple", "banana", "cherry"]
+text= "I like to eat banana and apple."
+
+print("is 'banana' in items?:", "banana" in items)
+print("is 'grape' in items?:", "grape" in items)
+print("is 'banana' not in items?:", "banana" not in items)
