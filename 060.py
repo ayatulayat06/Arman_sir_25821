@@ -1,3 +1,2 @@
-n = int(input("input a number"))
-for a in range(1,n+1):
-    print  (a, end="")
+for a in range(1,100):
+    print(a,end =" ")
