@@ -1,4 +1,5 @@
 # palindrome number
+
 num = int(input("Enter a number: "))
 
 original_num = num
