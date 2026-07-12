@@ -1,8 +1,15 @@
-# Finding GCD using Euclidean Algorithm
-num1= int(input("Enter your fast number: "))
-num2= int(input("Enter your secound number: "))
-
-a, b = num1, num2 
-while b != 0: 
-    a, b = b, a % b 
-print("The GCV of ", num1, "and", num2,"is", a)
+# Checking if a number is Prime 
+num = int(input("Enter a number: ")) 
+if num <= 1: 
+    print(num, "is NOT a Prime number") 
+else: 
+    is_prime = True 
+for i in range(2, int(num ** 0.5) + 1): 
+        if num % i == 0: 
+            is_prime = False 
+        break 
+if is_prime: 
+    print(num, "is a Prime number") 
+else: 
+    print(num, "is NOT a Prime number") 
+    
