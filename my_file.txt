@@ -1,0 +1,4 @@
+Welcome to Python File Handling!
+This file was created programmatically.
+This file was creates 178's program file
+
